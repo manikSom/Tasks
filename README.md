@@ -20,12 +20,12 @@ way to extend it to other geometries. The first line has the information
 of which shape it is (0 = Circle)
 This project reads the properies of all Circles like x & y coordinates
 of the center and radius. And Finds out which circles intersects with each
-other and in whoch points. The edge cases of them touching at only one point,
-and 2 circles completely lying on top of each other is also covered. This
-output is written into the [Onput file](./task_2/Output.txt)
+other and in which points. The edge cases of them touching at only one point,
+and 2 circles completely lying on top of each other is also considered. This
+output is written into the [Output file](./task_2/Output.txt)
 
-So in Visual Studio one needs to go to Properties-> Debugging-> Command Arguments
-and enter "Circles.txt Output.txt" to be taken as input arguments
+In Visual Studio one needs to go to Properties-> Debugging-> Command Arguments
+and enter "Circles.txt Output.txt" to be taken as input arguments (argv[]).
 
 Future Improvements: Write out as an image to visualise the shapes and result. 
 Also extend to other shapes and 3D.

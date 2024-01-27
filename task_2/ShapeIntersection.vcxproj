@@ -24,6 +24,7 @@
     <ProjectGuid>{7968e05e-3f64-4a43-ba5d-370db8c596d3}</ProjectGuid>
     <RootNamespace>task2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ShapeIntersection</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,13 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="task_2.cpp" />
-    <ClCompile Include="geometry.cpp" />
+    <ClCompile Include="ShapeIntersection.cpp" />
+    <ClCompile Include="Geometry.cpp" />
     <ClCompile Include="GeometryContainer.cpp" />
     <ClCompile Include="GeometryUtility.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="geometry.h" />
+    <ClInclude Include="Geometry.h" />
     <ClInclude Include="GeometryContainer.h" />
     <ClInclude Include="GeometryUtility.h" />
   </ItemGroup>
