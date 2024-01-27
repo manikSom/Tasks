@@ -1,0 +1,23 @@
+Results for geometry 0 vs geometry 1
+Error determining intersection points, coz they don't touch or intersect!
+Results for geometry 0 vs geometry 2
+Error determining intersection points, coz they don't touch or intersect!
+Results for geometry 0 vs geometry 3
+Error determining intersection points, coz they don't touch or intersect!
+Results for geometry 0 vs geometry 4
+Error determining intersection points, coz they don't touch or intersect!
+Results for geometry 1 vs geometry 2
+Error determining intersection points, coz they don't touch or intersect!
+Results for geometry 1 vs geometry 3
+Error determining intersection points, coz they don't touch or intersect!
+Results for geometry 1 vs geometry 4
+Error determining intersection points, coz they don't touch or intersect!
+Results for geometry 2 vs geometry 3
+Error determining intersection points, coz they don't touch or intersect!
+Results for geometry 2 vs geometry 4
+Error determining intersection points, coz they don't touch or intersect!
+Results for geometry 3 vs geometry 4
+Intersection point 0
+12.25 2.96825
+Intersection point 1
+12.25 1.03175
