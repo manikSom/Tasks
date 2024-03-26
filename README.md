@@ -1,17 +1,7 @@
 # Tasks
  varied C++, pythons tasks and their solutions
 
-## Task 1
-
-This [simple C++ program](./ContinuousPrimeString/) Outputs a set of n digits that occur after the 
-Nth digit when all prime numbers are written continously one after the 
-other without space.
-
-Example: If 3 digits after the 10th digit in such a continous number
-is expected then the out shall be:
-2357111317**192**3293137....
-
-## Task 2
+## Shape Intersection
 
 This [C++ Project](./ShapeIntersection/) takes in an [input file](./ShapeIntersection/Circles.txt), which contains 
 information regarding properties of a certain shape. Right now it is
@@ -29,3 +19,13 @@ and enter "Circles.txt Output.txt" to be taken as input arguments (argv[]).
 
 Future Improvements: Write out as an image to visualise the shapes and result. 
 Also extend to other shapes and 3D.
+
+## Continuous Prime String
+
+This [simple C++ program](./ContinuousPrimeString/) Outputs a set of n digits that occur after the 
+Nth digit when all prime numbers are written continously one after the 
+other without space.
+
+Example: If 3 digits after the 10th digit in such a continous number
+is expected then the out shall be:
+2357111317**192**3293137....
