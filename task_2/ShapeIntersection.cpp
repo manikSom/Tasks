@@ -8,7 +8,7 @@
 
 int main(int argc, char* argv[])
 {
-    utility::geometry::GeometryContainer geometryContainer;
+    GeometryContainer geometryContainer;
 
     if (!geometryContainer.readGeometries(std::string(argv[1])))
     {
@@ -16,9 +16,9 @@ int main(int argc, char* argv[])
         return 0;
     }
 
-    utility::geometry::GeometryUtility geometryUtility;
+    GeometryUtility geometryUtility;
 
-    std::vector<utility::geometry::Point> intersectionPoints;
+    std::vector<Point> intersectionPoints;
     std::ofstream outfile(argv[2]);
     if (!outfile.is_open())
     {
@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
     {
         for (size_t j = i + 1; j < geometryContainer.numberOfGeometries(); ++j)
         {
-            std::vector<utility::geometry::Point> intersectionPoints;
+            std::vector<Point> intersectionPoints;
             outfile << "Results for geometry " << i << " vs geometry " << j << std::endl;
             if (geometryUtility.computeIntersectionPoints(geometryContainer, i, j, intersectionPoints))
             {

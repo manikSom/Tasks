@@ -18,9 +18,6 @@
     <ClCompile Include="ShapeIntersection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Geometry.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GeometryContainer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

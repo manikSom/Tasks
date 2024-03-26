@@ -1,20 +1,11 @@
 #pragma once
 
-namespace utility
-{
-	class geometry;
-};
+namespace utility {
 
-class utility::geometry
-{
-public:
-	geometry();
-	~geometry();
-	class GeometryContainer;
-	class GeometryUtility;
-	typedef struct Point {
-		double _x;
-		double _y;
-	}Point;
-};
+	namespace geometry {
+
+		class GeometryContainer;
+		class GeometryUtility;
+	}
+}
 

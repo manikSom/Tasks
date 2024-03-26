@@ -5,22 +5,22 @@
 #include <vector>
 #include <string>
 
-utility::geometry::GeometryContainer::GeometryContainer() : n{ 0 }, typeOfGeom{9}
+GeometryContainer::GeometryContainer() : n{ 0 }, typeOfGeom{9}
 {
     std::cout << "Created GeometryContainer" << std::endl;
 };
 
-utility::geometry::GeometryContainer::~GeometryContainer()
+GeometryContainer::~GeometryContainer()
 {
     std::cout << "Destroyed GeometryContainer" << std::endl;
 };
 
-size_t utility::geometry::GeometryContainer::numberOfGeometries()
+size_t GeometryContainer::numberOfGeometries()
 {
     return n;
 }
 
-bool utility::geometry::GeometryContainer::readGeometries(std::string geomFile)
+bool GeometryContainer::readGeometries(std::string geomFile)
 {
     std::string line;
     std::ifstream myfile(geomFile);

@@ -21,7 +21,7 @@ typedef struct shape
     */
 }shape;
 
-class utility::geometry::GeometryContainer
+class GeometryContainer
 {
 public:
 	size_t n;

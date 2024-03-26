@@ -129,7 +129,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ShapeIntersection.cpp" />
-    <ClCompile Include="Geometry.cpp" />
     <ClCompile Include="GeometryContainer.cpp" />
     <ClCompile Include="GeometryUtility.cpp" />
   </ItemGroup>

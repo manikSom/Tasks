@@ -4,22 +4,22 @@
 #include <memory>
 #include <vector>
 
-utility::geometry::GeometryUtility::GeometryUtility()
+GeometryUtility::GeometryUtility()
     : R{0.0}, fx{0.0}, fy{0.0}, gx{0.0}, gy{0.0}, ii{0.0 ,0.0},jj{0.0 ,0.0}, d{0.0}
 {
     std::cout << "Created GeometryUtility" << std::endl;
 };
 
-utility::geometry::GeometryUtility::~GeometryUtility()
+GeometryUtility::~GeometryUtility()
 {
     std::cout << "Destroyed GeometryUtility" << std::endl;
 };
 
 
-bool utility::geometry::GeometryUtility::computeIntersectionPoints(
-    utility::geometry::GeometryContainer geomCont, 
+bool GeometryUtility::computeIntersectionPoints(
+    GeometryContainer geomCont, 
     size_t i, size_t j, 
-    std::vector<utility::geometry::Point>& intersectionPoints)
+    std::vector<Point>& intersectionPoints)
 {
     /*Calculating xy coords of 2 intersection points:
         Use of pow is bad for performance. Just for ease of understanding 
