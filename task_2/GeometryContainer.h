@@ -15,10 +15,6 @@ typedef struct shape
         y = y_;
         radius = r_;
     }
-    /* If square needs to be implemented
-    *   double sides;
-        void setSquare(double x_, double y_, double side_)
-    */
 }shape;
 
 class GeometryContainer

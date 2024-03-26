@@ -7,6 +7,7 @@
 typedef struct Point {
 	double _x;
 	double _y;
+	Point(double xCoord, double yCoord) : _x(xCoord), _y(yCoord) {}
 }Point;
 
 class GeometryUtility
@@ -18,5 +19,5 @@ public:
 
 private:
 	Point ii, jj;
-	double R, fx, fy, gx, gy, d;
+	double fx, fy, gx, gy, d;
 };
